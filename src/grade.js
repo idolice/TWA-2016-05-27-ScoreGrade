@@ -43,11 +43,13 @@
     }
 
     function getGradesLevel(inputs){
+        grades=[];
+        levels=[];
         var numbers=changeGradesToNum(inputs);
         var level=getLevels(numbers);
         var output=getText(level);
         console.log(output);
-        return text;
+        return output;
 
     }
 
